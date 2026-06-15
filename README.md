@@ -135,43 +135,6 @@ The dataset underwent the following preprocessing steps:
 
 ---
 
-## Project Structure
-
-```text
-AI-Enabled-Sound-Alert-Wearable/
-│
-├── README.md
-├── requirements.txt
-├── LICENSE
-│
-├── notebooks/
-│   ├── 01_dataset_download.ipynb
-│   ├── 02_audio_augmentation.ipynb
-│   ├── 03_audio_padding.ipynb
-│   ├── 04_feature_extraction.ipynb
-│   ├── 05_model_training.ipynb
-│   └── 06_model_evaluation.ipynb
-│
-├── deployment/
-│   └── main.py
-│
-├── models/
-│   ├── svm_model.pkl
-│   └── classes.npy
-│
-├── images/
-│
-├── docs/
-│   ├── Project_Presentation.pdf
-│   └── Project_Report.pdf
-│
-└── dataset_info/
-    ├── classes.txt
-    └── dataset_description.md
-```
-
----
-
 ## Future Improvements
 
 * Mobile application integration
